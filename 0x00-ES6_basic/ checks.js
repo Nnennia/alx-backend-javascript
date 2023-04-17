@@ -1,5 +1,6 @@
-import getNeighborhoodsList from "./2-arrow.js";
+import getFullBudgetObject from "./9-getFullBudget.js";
 
-const neighborhoodsList = new getNeighborhoodsList();
-const res = neighborhoodsList.addNeighborhood("Noe Valley");
-console.log(res);
+const fullBudget = getFullBudgetObject(20, 50, 10);
+
+console.log(fullBudget.getIncomeInDollars(fullBudget.income));
+console.log(fullBudget.getIncomeInEuros(fullBudget.income));
