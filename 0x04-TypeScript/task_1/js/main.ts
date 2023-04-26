@@ -6,6 +6,9 @@ interface Teacher {
   fullTimeEmployee: boolean;
 }
 
+interface Directors extends Teacher {
+  numberOfReport: number;
+}
 const teacher3: Teacher = {
   firstName: "John",
   fullTimeEmployee: false,
