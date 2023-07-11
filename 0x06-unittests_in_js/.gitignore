@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Distribution directories
+dist/
+out/
+build/
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment configuration
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+*.swp
+*.swo
+*.bak
+*.tmp
+*.cache
+*.css.map
+*.js.map
+*.gz
+
+# Testing and coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# macOS
+.DS_Store
+
+# dependecies
+10-api/node_modules/
+8-api/node_modules/
+9-api/node_modules/
